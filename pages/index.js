@@ -8,10 +8,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='text-white'>
+      <main className='text-white flex flex-col items-center justify-center'>
         <p>
         Hello, welcome to the deep-server
         </p>
+        <img src="/images/rick.jpg" className='w-20'></img>
       </main>
 
     </div>
