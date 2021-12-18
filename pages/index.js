@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
         <p>
         Hello, welcome to the deep-server
         </p>
-        <img src="/images/rick.jpg" className='w-20'></img>
+        {/* <img src="/images/rick.jpg" className='w-20'></img> */}
+        <Image src={"/images/rick.jpg"} width="100" height="160" className='w-20 h-400'/>
       </main>
 
     </div>
