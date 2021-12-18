@@ -13,8 +13,8 @@ export default function Home() {
         <p>
         Hello,
         </p>
-        <img src="/images/rick.jpg" className='w-20'></img>
-        {/* <Image src={"/images/rick.jpg"} width="100" height="170" className='w-20 h-400'/> */}
+        {/* <img src="/images/rick.jpg" className='w-20'></img> */}
+        <Image src={"/images/rick.jpg"} width="100" height="170" className='w-20 h-400'/>
       </main>
 
     </div>
